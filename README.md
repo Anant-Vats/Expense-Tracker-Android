@@ -30,9 +30,9 @@ The application enables users to:
 ## Home Screen
 ![Home](Screenshots/Home.png)
 
-![Monthly](Screenshots/Monthly View.png)
+![Monthly](Screenshots/monthly-view.png)
 
-![Budget](Screenshots/Budget Mapping.png)
+![Budget](Screenshots/budget-mapping.png)
 
 ---
 
