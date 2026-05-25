@@ -28,13 +28,11 @@ The application enables users to:
 # Screenshots
 
 ## Home Screen
-![Home](screenshots/home.png)
+![Home](Screenshots/Home.png)
 
-## Expense Summary
-![Summary](screenshots/summary.png)
+![Monthly](Screenshots/Monthly View.png)
 
-## Budget Tracking
-![Budget](screenshots/budget.png)
+![Budget](Screenshots/Budget Mapping.png)
 
 ---
 
