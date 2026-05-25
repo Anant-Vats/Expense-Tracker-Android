@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_marginBottom="12dp">
+
+    <TextView
+        android:id="@+id/tvBudgetCatLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/textPrimary"
+        android:textSize="14sp"
+        android:layout_marginEnd="12dp"/>
+
+    <EditText
+        android:id="@+id/etCategoryBudget"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:inputType="numberDecimal"
+        android:background="@drawable/input_bg"
+        android:padding="10dp"
+        android:textSize="14sp"/>
+
+</LinearLayout>

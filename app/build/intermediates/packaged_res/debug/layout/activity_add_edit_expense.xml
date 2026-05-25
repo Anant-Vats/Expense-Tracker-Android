@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textColor="@color/textSecondary"
+            android:textSize="13sp"
+            android:layout_marginBottom="4dp"/>
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g. Lunch at canteen"
+            android:inputType="textCapSentences"
+            android:background="@drawable/input_bg"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Amount -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount (₹)"
+            android:textColor="@color/textSecondary"
+            android:textSize="13sp"
+            android:layout_marginBottom="4dp"/>
+
+        <EditText
+            android:id="@+id/etAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="0.00"
+            android:inputType="numberDecimal"
+            android:background="@drawable/input_bg"
+            android:padding="14dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Category -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textColor="@color/textSecondary"
+            android:textSize="13sp"
+            android:layout_marginBottom="4dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_bg"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Date -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textColor="@color/textSecondary"
+            android:textSize="13sp"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_bg"
+            android:padding="14dp"
+            android:textColor="@color/textPrimary"
+            android:textSize="15sp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Note -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note (optional)"
+            android:textColor="@color/textSecondary"
+            android:textSize="13sp"
+            android:layout_marginBottom="4dp"/>
+
+        <EditText
+            android:id="@+id/etNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Any additional notes..."
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:gravity="top"
+            android:background="@drawable/input_bg"
+            android:padding="14dp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Save button -->
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Save Expense"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn_primary"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+</ScrollView>

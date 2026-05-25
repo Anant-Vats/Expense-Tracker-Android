@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#F5F7FA</color>
+    <color name="colorAccent">#FF6F00</color>
+    <color name="colorPrimary">#1565C0</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorPrimaryLight">#E3F2FD</color>
+    <color name="green">#2E7D32</color>
+    <color name="red">#D32F2F</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <string name="action_budget">Budget</string>
+    <string name="action_summary">Summary</string>
+    <string name="app_name">Expense Tracker</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+</resources>
